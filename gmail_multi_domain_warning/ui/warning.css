@@ -1,0 +1,29 @@
+.domain-warning {
+  position: fixed;
+  top: 72px;
+  right: 24px;
+  z-index: 9999;
+  background: #fff3cd;
+  border: 1px solid #ffecb5;
+  padding: 12px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  font-family: system-ui, sans-serif;
+}
+
+.domain-warning__title {
+  font-weight: 600;
+}
+
+.domain-warning__domains {
+  font-size: 12px;
+  margin: 4px 0;
+}
+
+.domain-warning__ok {
+  background: none;
+  border: none;
+  color: #1a73e8;
+  cursor: pointer;
+  font-size: 12px;
+}
